@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Movies - Super Heroes</title>
+  </head>
+  <body>
+    <div id="body-content">
+      <div id="container">
+        <a href="https://superheroapi.com/ids.html">Choose a hero </a><br />
+        <input type="number" id="txtSearch" min="1" max="731" placeholder="Hero id" />
+        <button type="button" id="btnSearch">Search Hero</button>
+        <div class="show-hero"></div>
+        <br />
+        You have searched for
+        <br />
+          <div id="table-div">
+        <table id="myTable">
+            <thead>
+              <tr>
+                <th>HeroID</th>
+                <th>HeroName</th>
+                <th>Hero intelligence</th>
+                <th>Hero strength</th>
+                <th>Hero speed</th>
+                <th>Hero durability</th>
+                <th>Hero power</th>
+                <th>Hero combat</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            </tbody>
+          </table>
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
+</html>

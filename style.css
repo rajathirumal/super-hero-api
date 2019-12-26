@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(196, 187, 187);
+}
+
+#body-content {
+  display: flex;
+  align-content: center;
+}
+
+#container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: lightsteelblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#table-div {
+  background-color: rgb(135, 205, 228);
+}
+.show-hero {
+  background-color: rgb(145, 241, 217);
+  border-radius: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
